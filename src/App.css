@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.Header {
+  background: rgb(200, 200, 216);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AddToCardButton {
+  width: 13rem;
+  background: rgb(247, 246, 246);
+  border-radius: 5px;
+  border-color: #e1e0f5;
+  padding: 0.8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  position: relative;
+  background: rgb(247, 246, 246);
   display: flex;
   flex-direction: column;
+  width: 20rem;
+  padding: 1rem;
+  margin: auto;
   align-items: center;
+  box-shadow: 0px 0px 5px 5px rgb(151, 151, 185);
+}
+
+input{
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.Home{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.Card {
+  margin: 1rem;
+  border-radius: 5px;
+  border: 2px solid rgb(200, 200, 216);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card > img {
+  width: 15rem;
+  height: 12rem;
+}
+
+.Details{
+  background: rgb(200, 200, 216);
+  /* padding: 1rem; */
+}
+
+.Cart{
+padding: 1rem;
+}
+
+.CartItem{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid rgb(200, 200, 216);
+  background: rgb(247, 246, 246);
+}
+
+.CartImg{
+  width: 5rem;
+}
+
+.Link {
+  margin-right: 1rem;
+  text-decoration: none;
+  
+}
+
+button{
+  border: none;
+  background: rgb(200, 200, 216);
+  box-shadow: 0px 0px 6px 2px rgb(46 21 90);
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  color: #391089;
+  font-weight: bold;
 }
